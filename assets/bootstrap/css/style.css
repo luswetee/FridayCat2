@@ -1,0 +1,173 @@
+.form-login{
+    background-image: url("../../images/bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-btn{
+    width: 28vw;
+    height: 3vw;
+    border: unset;
+    border-radius: 5px;
+    color: white;
+    background-color: midnightblue;
+}
+.facebook-btn{
+    background-color: blue;
+    color: white;
+    width: 14vw;
+    border: unset;
+    height: 2.5vw;
+}
+.facebook-btn:hover{
+    background-color: white;
+    color: blue;
+}
+.google-btn{
+    background-color: red;
+    color: white;
+    width: 14vw;
+    border: unset;
+    height: 2.5vw;
+}
+.google-btn:hover{
+    background-color: white;
+    color: red;
+}
+.fa-user-o{
+    margin-left: 26vw;
+    top: 175px;
+    position: absolute;
+}
+.fa-unlock-alt{
+    position: absolute;
+    margin-left: 26vw;
+    top: 265px;
+}
+.fa-facebook-square{
+    position: absolute;
+    margin-left: -2vw;
+    top: 28.2vw;
+}
+.fa-google{
+    position: absolute;
+    margin-left: -2vw;
+    top: 28.2vw;
+}
+.x{
+    border: unset;
+    border-radius: 15px;
+    margin-left: 40vw;
+}
+.y{
+    border-color: #d0b52d;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.about-body{
+    padding-top: 56px;
+}
+.jumbotron{
+    background: url("../../images/alexandra-smielova-kczh2ehjyCU-unsplash.jpg") no-repeat center;
+}
+.btn-primary{
+    background-color: #c60063;
+    border-color: #c60063;
+}
+.btn-secondary{
+    background-color: transparent;
+    border-color: #c60063;
+    color: #c60063;
+}
+#contact{
+    background: url("../../images/andreas-bergmann-jRHXPiKQE5A-unsplash.jpg") no-repeat center;
+}
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../../images/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+.services .icon-box {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 50px;
+}
+.services .icon-box .icon i {
+    font-size: 32px;
+    transition: 0.5s;
+    line-height: 1;
+    position: relative;
+}
+.services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.services .icon-box h4 a {
+    color: #414c64;
+    transition: ease-in-out 0.3s;
+}
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+.services .iconbox-blue i {
+    color: #47aeff;
+}
+.services .iconbox-blue:hover .icon {
+    background: #47aeff;
+}
+.services .iconbox-blue:hover .icon i {
+    color: #fff;
+}
+.services .iconbox-orange i {
+    color: #ffa76e;
+}
+.services .iconbox-orange:hover .icon {
+    background: #ffa76e;
+}
+.services .iconbox-orange:hover .icon i {
+    color: #fff;
+}
+.services .iconbox-pink i {
+    color: #e80368;
+}
+.services .iconbox-pink:hover .icon {
+    background: #e80368;
+}
+.services .iconbox-pink:hover .icon i {
+    color: #fff;
+}
+.services .iconbox-yellow i {
+    color: #ffbb2c;
+}
+.services .iconbox-yellow:hover .icon {
+    background: #ffbb2c;
+}
+.services .iconbox-yellow:hover .icon i {
+    color: #fff;
+}
+.top-home{
+    background: url("../../images/mathyas-kurmann-jnHQsTfq2Og-unsplash.jpg") no-repeat center;
+    height: 40vw;
+}

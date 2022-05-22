@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+<!--    START OF JS CONNECTION-->
+    <script src="assets/bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+<!--    END OF JS CONNECTION-->
+<!--    START OF BOOTSTRAP CONNECTION-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css">
+<!--    END OF BOOTSTRAP CONNECTION-->
+</head>
+<body class="form-login">
+<!--FORM STARTS HERE-->
+    <section>
+        <form style="width: 30vw;margin-top: 10vw;margin-left: 35vw" action="/action_page.php">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input style="width: 28vw" type="text" class="form-control" placeholder="Username" id="username">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input style="width: 28vw" type="password" class="form-control" placeholder="Password" id="pwd">
+                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            </div>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <h6>Forgot password?</h6>
+            <button class="facebook-btn">Facebook</button>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <button class="google-btn">Google</button>
+            <i class="fa fa-google" aria-hidden="true"></i>
+        </form>
+    </section>
+<!--FORM ENDS HERE-->
+</body>
+</html>
